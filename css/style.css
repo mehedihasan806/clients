@@ -463,4 +463,229 @@ display: inline-block;
     font-size: 18px;
 }
 /*Faq page style End--------*/
+/*-------project page style start------*/
+#project{
+    padding-top: 60px;
+}
+.p-title{
+    font-size: 38px;
+    font-weight: 500;
+}
+.project-form {
+    position: relative;
+}
+.project-form input {
+    border-radius: 30px;
+    box-shadow: 2px 3px 6px 1px #e3e3e3;
+    border: 0;
+    width: 100% !important;
+}
+.project-form button {
+    position: absolute;
+    right: 5px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+.project-form .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+   border-color: #7a838a;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(236 236 236 / 25%)
+}
+.portfolio-menu{}
+.portfolio-menu ul{
+    padding: 0;
+}
+.portfolio-menu ul li{
+    font-size: 13px;
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:5px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+    border-radius: 30px;
+    
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:15px;
+}
+/*-------project page style End  ------*/
+.brand-box-2 {
+/*
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 1px 10px 2px #e2e2e2;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+	border-radius: 0 0 15px 0;
+*/
+        display: flex;
+    align-items: center;
+}
+#project-1{
+    padding-bottom: 80px;
+}
+#project-1 .brand-box-2 {
+    position: relative;
+}
+#project-1 .brand-box-2 .percentage {
+    font-family: awc;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 55px;
+    background: url(../img/percentage-bg.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    width: 110px;
+    height: 53px;
+    color: #fff;
+}
+#project-1 .brand-box-2 img{
+    border-radius: 14px;
+}
+.pro-border{
+    border-radius: 30px;
+}
+.pro-title{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #808080;
+    margin: 10px 0 0 10px;
+}
+/*myrefunds start -----------*/
+#my-refunds{
+    background-image: linear-gradient(to right, #40BFB5, #40AE71);
+    padding: 60px 0;
+}
+.tab-div{
+    padding:;
+    margin: 0;
+    border-radius: 10px;
+}
+.my-nav{
+     
+}
+.my-nav ul{}
+.my-nav ul li {
+    padding: 15px 20px;
+    border-right: 2px solid #E1E1E1;
+}
+.my-nav ul li:first-child{
+    padding-left: 0;
+}
+.my-nav ul li:last-child{
+    border-right: none;
+}
+.my-nav ul li a {
+    background: transparent;
+    color: #010A51;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.nav-pills .nav-link.active{
+    color: #22B373;
+    background-color: transparent;
+}
+.my-nav ul li a:hover{
+    color: #22B373 !important;
+}
+.my-nav ul li a:active{
+    color: #22B373 !important;
+}
+.btn-log-out{
+     background: #60BBF1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 5px;
+    
+}
+.heading-3{
+    color: #22B373;
+    
+    
+}
+.hr-1{
+    margin: 40px
+}
+.my-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid #22b373;
+}
+.list-headline{
+    padding: 0 20px;;
+    display: inline-block;
+    text-align: center;
+}
+.list-headline li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.list-headline li:first-child{
+    padding: 0;
+}
+.list-result{
+    text-align: center;
+    color: #22b373;
+    padding-top: 10px
+}
+.list-result a{
+    color: #22b373;
+    font-size: 20px
+}
+.list-result a:hover{
+    text-decoration: none;
+}
+.btn-2{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #60BBF1;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.custom-tab{
+    padding:60px 0 80px;
+}
+.tmb a{
+    font-size: 32px !important;
+}
+.tmb-pra{
+    font-size: 12px;
+    padding: 40px 0;
+}
+
+
+
 
