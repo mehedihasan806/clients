@@ -28,10 +28,27 @@
 }
 /*Extra small devices (portrait phones, less than 414px)*/
 @media  (max-width: 414px){
-	
-	
-	
-	
+	#login-div, #faq-div {
+    padding: 0 10px;
+}
+    .from-bg {
+    padding: 40px;
+}
+	.filter-select {
+    font-size: 14px;
+    padding: 0;
+}
+	.brand-img {
+    width: 90%;
+}.common-marchant span {
+    font-size: 14px;
+}
+    	.favorit {
+    font-size: 20px;
+}
+	.portfolio-menu ul li {
+    margin: 5px;
+}
 	
 	
 	
@@ -82,12 +99,45 @@ header .navbar-expand-lg .navbar-nav .nav-link {
 .katapult h4 {
     font-size: 20px;
 }
-
-
-
-
-
-
+	#login-div, #faq-div {
+    padding: 30px 10px;
+}
+.from-bg {
+    padding: 40px;
+}
+	.filter-select {
+    font-size: 14px;
+    padding: 0;
+}
+.brand-img {
+    width: 90%;
+}
+    .common-marchant span {
+    font-size: 14px;
+}
+	.favorit {
+    font-size: 20px;
+}
+	.portfolio-menu ul li {
+    margin: 5px;
+}
+.project-form input {
+    font-size: 14px;
+}
+    .card-1 a {
+    font-size: 18px;
+}
+    .card-1 .card-body {
+    font-size: 15px;
+}
+    .tab-div {
+    padding: 20px 0px;
+}
+    .my-nav ul li {
+    padding: 15px 20px;
+}
+    
+    
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -125,7 +175,21 @@ header .navbar-expand-lg .navbar-nav .nav-link {
     margin-bottom: 20px;
     font-size: 30px;
 }
-   
+   .project-form input {
+    font-size: 14px;
+}
+    .card-1 a {
+    font-size: 18px;
+}
+        .card-1 .card-body {
+    font-size: 15px;
+}
+       .tab-div {
+    padding: 20px 0px;
+}
+    .my-nav ul li {
+    padding: 15px 20px;
+}
 	
 	
 	
@@ -166,9 +230,19 @@ header .navbar-expand-lg .navbar-nav .nav-link {
     margin-bottom: 20px;
     font-size: 34px;
 }
-
-	
-	
+.line span:nth-child(1) {
+    width: 40%;
+}
+.from-bg {
+    padding: 60px;
+}
+#login-div, #faq-div {
+    background-image: linear-gradient(to right, #40BFB5, #40AE71);
+    padding: 60px 0;
+}
+	.text-custom-primary {
+    font-size: 32px;
+}
 	
 }
 
